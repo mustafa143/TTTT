@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         if(isActive){
             isActive = false;
             seekBar.setEnabled(false);
-            startBtn.setText("STOP!");
+            startBtn.setText("STOP ONCE YESS!");
             countDownTimer = new CountDownTimer(seekBar.getProgress()*1000 + 10, 1000){
 
                 @Override
