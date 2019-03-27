@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     Boolean isActive = true;
     CountDownTimer countDownTimer;
     public void resetTimer(){
-        startBtn.setText("GO!");
+        startBtn.setText("GO PLEASE!");
         countDownTimer.cancel();
         seekBar.setProgress(30);
         timerTextView.setText( "0:30");
